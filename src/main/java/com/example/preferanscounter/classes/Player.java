@@ -38,9 +38,9 @@ public class Player {
         return whists;
     }
 
-    public void setWhist(int playerId, int value) {
-        whists[playerId] = value;
-    }
+    public int getWhist(int playerId) { return whists[playerId]; }
+
+    public void setWhist(int playerId, int value) { whists[playerId] = value; }
 
     public int getResult() {
         return result;

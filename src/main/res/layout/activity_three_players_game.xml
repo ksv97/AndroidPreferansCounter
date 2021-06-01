@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pulka"
+    tools:context=".ThreePlayersGameActivity">
+
+    <EditText
+        android:id="@+id/whists13"
+        android:layout_width="42dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <EditText
+        android:id="@+id/whists12"
+        android:layout_width="42dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="463dp" />
+
+    <EditText
+        android:id="@+id/whists21"
+        android:layout_width="42dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="0"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="661dp" />
+
+    <EditText
+        android:id="@+id/whists23"
+        android:layout_width="42dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="0"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="661dp" />
+
+    <EditText
+        android:id="@+id/whists32"
+        android:layout_width="42dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="0"
+        tools:layout_editor_absoluteX="363dp"
+        tools:layout_editor_absoluteY="463dp" />
+
+    <EditText
+        android:id="@+id/whists31"
+        android:layout_width="42dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="0"
+        tools:layout_editor_absoluteX="363dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <EditText
+        android:id="@+id/bullet1"
+        android:layout_width="42dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="0"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/bullet2"
+        android:layout_width="42dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="0"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="568dp" />
+
+    <EditText
+        android:id="@+id/bullet3"
+        android:layout_width="42dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="0"
+        tools:layout_editor_absoluteX="312dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/mountain1"
+        android:layout_width="42dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="0"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/mountain2"
+        android:layout_width="42dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="0"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="488dp" />
+
+    <EditText
+        android:id="@+id/mountain3"
+        android:layout_width="42dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="0"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/result1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <TextView
+        android:id="@+id/result3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <TextView
+        android:id="@+id/result2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="425dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
