@@ -14,7 +14,8 @@ public class Game {
         }
     }
 
-    public Player getPlayer(int id) {
+    public Player getPlayer(int playerNumber) {
+        int id = playerNumber - 1;
         return players[id];
     }
 
@@ -57,7 +58,7 @@ public class Game {
 
         for (Player p: players) {
             int playerMountain = p.getMountainPoints();
-            p.addToResult((playerMountain - mountainPointsPerPlayer) * 10);
+            p.addToResult((mountainPointsPerPlayer - playerMountain) * 10);
         }
     }
 }

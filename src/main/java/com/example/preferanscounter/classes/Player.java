@@ -40,7 +40,9 @@ public class Player {
 
     public int getWhist(int playerId) { return whists[playerId]; }
 
-    public void setWhist(int playerId, int value) { whists[playerId] = value; }
+    public void setWhist(int playerNumber, int value) {
+        whists[playerNumber - 1] = value;
+    }
 
     public int getResult() {
         return result;
