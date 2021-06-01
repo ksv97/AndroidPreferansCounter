@@ -169,4 +169,12 @@
         android:text="0"
         tools:layout_editor_absoluteX="201dp"
         tools:layout_editor_absoluteY="425dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Посчитать"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="355dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
